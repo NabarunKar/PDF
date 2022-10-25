@@ -1,0 +1,49 @@
+{
+  "name": "reactpdg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.5",
+    "@material-ui/core": "^4.12.3",
+    "@react-pdf/renderer": "^2.0.21",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "lodash.without": "^4.4.0",
+    "process": "^0.11.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
